@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "taskhotel", "taskhotel\taskhotel.csproj", "{AAAFA392-3776-4081-BD54-EE487136BE42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAAFA392-3776-4081-BD54-EE487136BE42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAFA392-3776-4081-BD54-EE487136BE42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAFA392-3776-4081-BD54-EE487136BE42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAFA392-3776-4081-BD54-EE487136BE42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3241ABF-9986-44A9-BA02-3401113F14B9}
+	EndGlobalSection
+EndGlobal

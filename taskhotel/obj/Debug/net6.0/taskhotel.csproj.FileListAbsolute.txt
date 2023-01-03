@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\obj\Debug\net6.0\taskhotel.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\obj\Debug\net6.0\taskhotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\obj\Debug\net6.0\taskhotel.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\obj\Debug\net6.0\taskhotel.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\obj\Debug\net6.0\taskhotel.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\bin\Debug\net6.0\taskhotel.exe
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\bin\Debug\net6.0\taskhotel.deps.json
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\bin\Debug\net6.0\taskhotel.runtimeconfig.json
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\bin\Debug\net6.0\taskhotel.dll
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\bin\Debug\net6.0\taskhotel.pdb
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\obj\Debug\net6.0\taskhotel.dll
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\obj\Debug\net6.0\refint\taskhotel.dll
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\obj\Debug\net6.0\taskhotel.pdb
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\obj\Debug\net6.0\taskhotel.genruntimeconfig.cache
+C:\Users\Lenovo\Desktop\taskhotel\taskhotel\obj\Debug\net6.0\ref\taskhotel.dll
