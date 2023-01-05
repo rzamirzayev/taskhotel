@@ -8,13 +8,16 @@ using taskhotel.Services.Interfaces;
 
 namespace taskhotel.Services.Implementations
 {
-    internal class RoomService : IRoomService
+    internal class RoomService : IRoomService 
     {
-        Otel otel=new Otel();
+        Otel otel = new Otel();
+      
         public void create()
         {
-            
+            int id;
+           
             Room room = new Room();
+
             Array.Resize(ref otel.Rooms, otel.Rooms.Length + 1);
             otel.Rooms[otel.Rooms.Length-1]=room;
             
@@ -24,43 +27,51 @@ namespace taskhotel.Services.Implementations
 
         public void Reserve()
         {
-            int id;
-            Console.WriteLine("Hansi id-li otagi rezerv etmek istiyirsiniz:");
-            id=Convert.ToInt32(Console.ReadLine());
+            int no;
+      
+            
+            Console.WriteLine("Hansi No-li otagi rezerv etmek istiyirsiniz:");
+            no=Convert.ToInt32(Console.ReadLine());
             for(int i=0;i<otel.Rooms.Length;i++)
             {
-                if (otel.Rooms[i].Id == id)
+
+                if (otel.Rooms[i].Id == no)
                 {
-                    Console.WriteLine("otaq rezerv olunub.");
-                    break;
+                    if (otel.Rooms[i].IsReserved == false)
+                    {
+                        Console.WriteLine("Otaq rezerv olundu");
+                        otel.Rooms[i].IsReserved = true;
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Rezerv olunmus otaqdir");
+                        break;
+                    }
                     
                 }
-                 else
-                {
+                
 
-                    Console.WriteLine("Size" + (Room.No + 1) + " nomreli otagi rezerv ede bilerik.");
-                    Console.WriteLine("Rezerv etmek ucun H basin.Etmek istemirsinizse Y basin");
-                    string secim;
-                    secim = Console.ReadLine();
-                    if (secim.ToUpper() == "H")
-                    {
-                        create();
-                    }
-                    else if (secim.ToUpper() == "Y")
-                    {
-                        Console.WriteLine("Geldiyiniz ucun Tesekkurler.");
-                    }
-                }
 
-                break;  
             }
+  
+
         }
 
         public void ShowAllRooms()
         {
            for(int i = 0; i < otel.Rooms.Length; i++)
             {
-                Console.WriteLine(otel.Rooms[i].Id+".nomreli otaq");
+                Console.Write(otel.Rooms[i].Id+".Idli otaq movcuddur.");
+                if (otel.Rooms[i].IsReserved == false)
+                {
+                    Console.WriteLine("Otaq rezerv olunmuyub.");
+                }
+                else
+                {
+                    Console.WriteLine("Otaq rezerv olunub");
+                }
+                
             }
         }
     }

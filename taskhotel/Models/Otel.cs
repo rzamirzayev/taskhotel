@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 
 namespace taskhotel.Models
 {
-    internal class Otel
+    internal class Otel:Room
     {
         private static int _id = 0;
-        public readonly int Id;
+        public static int Id;
         public string Name;
-        public Room[] Rooms=new Room[0];
-        public Otel() 
-        {
-            _id++;
-            Id= _id;    
-        }
+        public Room[] Rooms=new Room[Id];
+        
+        
     }
 }
